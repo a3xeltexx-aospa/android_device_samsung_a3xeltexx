@@ -1,5 +1,5 @@
 Copyright (C) 2018 PurpleStorm Corp. <nefintent@zeroside.co>
-Mdae for AOSPA ROM purposes
+Made for AOSPA ROM purposes
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
