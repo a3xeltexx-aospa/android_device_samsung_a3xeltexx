@@ -1,4 +1,5 @@
-Copyright (C) 2016-2017 Apavayan Sinha <info@apavayan.com>
+Copyright (C) 2018 PurpleStorm Corp. <nefintent@zeroside.co>
+Mdae for AOSPA ROM purposes
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -28,4 +29,4 @@ Front Camera  | 5 MP, f/1.9, 23mm
 
 ![Galaxy A3 (2016)](http://drop.ndtv.com/TECH/product_database/images/1232015120413AM_635_samsung_galaxy_a3_2016.jpeg "Galaxy A3 (2016)")
 
-Model Supported : SM-A310F SM-A310M
+Models Supported : SM-A310F SM-A310M
