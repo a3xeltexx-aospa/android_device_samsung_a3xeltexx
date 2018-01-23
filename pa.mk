@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2016 The CyanogenMod Project
-#           (C) 2017 The LineageOS Project
+# Copyright (C) 2018 Paranoid Android
+#           
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,8 +15,14 @@
 # limitations under the License.
 #
 
+# Check for target product
+ifeq (pa_a3xeltexx,$(TARGET_PRODUCT))
+
 # Initialise device config
 $(call inherit-product, device/samsung/a3xeltexx/full_a3xeltexx.mk)
+
+# Include Paranoid Android common configuration
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit common CM phone.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -27,3 +33,8 @@ PRODUCT_DEVICE := a3xeltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Paranoid Android platform
+include vendor/pa/main.mk
+
+endif
