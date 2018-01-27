@@ -25,7 +25,7 @@ $(call inherit-product, device/samsung/a3xeltexx/full_a3xeltexx.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit common CM phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := pa_a3xeltexx
